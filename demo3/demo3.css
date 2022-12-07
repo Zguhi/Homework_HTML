@@ -1,0 +1,25 @@
+tr{
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+}
+td{
+    color: red;
+    background-color: black;
+    font-size: 50px;
+}
+table{
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 5px solid blue;
+}
+th, td{
+    width: 200px;
+}
+a{
+    text-decoration: none;
+}
+form{
+    font-size: 50px;
+}

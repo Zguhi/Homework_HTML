@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> demo3 </title>
+  <link rel="stylesheet" href="demo3.css">
+</head>
+
+<body>
+<table border="1">
+  <tr>
+    <th colspan="2"> Name </th>
+    <th> Price </th>
+
+  </tr>
+  <tr>
+    <td rowspan="2"> IP X </td>
+    <td> 3k$ </td>
+    <td> 100 </td>
+  </tr>
+  <tr>
+    <td> IP 13 ProMax </td>
+    <td> 4K5$ </td>
+
+  </tr>
+  <tr>
+    <th style="font-size: 30px"><a href="https://www.youtube.com/" target="_blank"> welcome to youtube </a> </th>
+    <th><a href="#"> support </a> </th>
+    <th><a href="#"> product </a> </th>
+  </tr>
+</table>
+<form>
+  <label for="nameID"> Name </label><br/>
+  <input type="text"  name="name" id="nameID" maxlength="20" style="width: 500px; height: 50px;">
+  <br/>
+  <input type="radio" name="age" id="ageID" style="width: 20px; height: 20px;">
+  <label > 15-35 </label>
+  <input type="radio" name="age" id="ageID1" style="width: 20px; height: 20px;">
+  <label > 35-55 </label>
+  <input type="radio" name="age" id="ageID2" style="width: 20px; height: 20px;">
+  <label > 55-75 </label>
+  <br/>
+  <input type="checkbox" name="box" style="width: 20px; height: 20px;">
+  <label> IP </label>
+  <input type="checkbox" name="box" style="width: 20px; height: 20px;">
+  <label> SamSung </label>
+  <input type="checkbox" name="box" style="width: 20px; height: 20px;">
+  <label> Nokia </label>
+  <br/>
+  <textarea cols="25" rows="3" placeholder="description" style="width: 500px; height: 100px;"></textarea> <br/>
+  <input type="datetime-local" name="time" style="width: 100px; height: 50px;"> <br/>
+  <input type="date" name="date" style="width: 100px; height: 50px;"> <br/>
+  <input type="color" name="color" style="width: 100px; height: 50px;"> <br/>
+  <input type="password" oninvalid="this.setCustomValidity('vui long nhap chinh xac')" required name="password" minlength="8" style="width: 300px; height: 30px;"><p style="font-size: 15px"> day la password</p>
+  <input type="email" name="email" style="width: 300px; height: 30px; font-size: 15px" ><p style="font-size: 15px"> day la email</p>
+  <input type="file" name="file" multiple> <br/>
+<!--  <input type="hidden" name="hidden">-->
+<!--  <input type="image" name="image" src="![](../img/anh thien nhien.jpg)" alt="anh thien nhien"> -->
+  <input type="search" name="search" style="width: 300px; height: 30px; font-size: 15px"> <br/>
+  <input type="number" name="number" style="width: 300px; height: 30px; font-size: 15px" max="30" min="0"> <br/>
+  <input type="range" name="range" style="width: 500px;"> <br/>
+  <input type="tel" name="telephone" maxlength="11" style="width: 300px; height: 30px; font-size: 15px"><p style="font-size: 15px"> day la sdt</p>
+  <input type="button" value="accept" style="width: 100px; height: 50px;">
+  <input type="submit" value="submit" style="width: 100px; height: 50px;">
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS demo5</title>
+  <script>
+    // alert("Well come to T2210E");
+    // confirm("Ban co muon hoc lai khong ?");
+    // document.write("Hello T2210E");
+    // var number = parseInt("1");
+    // console.log("number "+number);
+    // var name = prompt("Vui long nhap ten cua ban");
+    // console.log("Ten cua ban la:"+name);
+
+       function onKeyup(){
+         var name = document.getElementById("nameID").value;
+         console.log("name "+name);
+       }
+       function mouse(){
+         document.getElementById("nameID").value = "T2210E";
+         document.getElementById("nameID").style.color = "red";
+       }
+       function Blur(){
+         document.getElementById("nameID").value = "T2210E";
+         document.getElementById("nameID").style.color = "blue";
+         console.log("test blur function");
+       }
+  </script>
+</head>
+
+<body>
+<input type="text" id="nameID" onmouseover="mouse()" onkeyup="onKeyup()" onblur="Blur()" name="name">
+</body>
+
+</html>
